@@ -46,6 +46,15 @@
       $("#block-exposedformmag-search-2page-1").fadeIn();
       $("#edit-search-api-fulltext").focus();
     });
+
+    $("#showsearch2").click(function() {
+      $(".mnavcon").toggle();
+      //$(".navlogo").toggle();
+      $("#block-exposedformmag-search-2page-1").fadeIn();
+      $("#edit-search-api-fulltext").focus();
+    });
+
+
     $("#searchclose").click(function() {
       $("#block-exposedformmag-search-2page-1").hide();
       $(".mnavcon").fadeIn();

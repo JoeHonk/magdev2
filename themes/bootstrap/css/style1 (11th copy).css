@@ -68,55 +68,66 @@ h1, h2, h3, h4, h5 {
   /*  display: inline-block;*/
 }
 
-
 /* SEARCH */
 
-.views-exposed-form .form-control {
+.views-exposed-form .form-control{
+
   text-decoration: none;
+
+
   font-size: 24px;
-  line-height: 1.1;
-  border: none;
-  border-radius: 0;
-  padding: 6px;
-  padding-left: 16px;
+line-height: 1.1;
+border: none;
+    border-radius: 0;
+    padding: 6px;
+        padding-left: 16px;
   height: 45px;
-  color: #555;
-  background-color: #fff;
-  /*min-width: 400px;*/
+    color: #555;
+    background-color: #fff;
+    min-width: 150px;
+
 }
 
-.views-exposed-form .form-item {
+
+
+.views-exposed-form .form-item{
   margin-top: -25px;
   margin-right: 15px;
 }
 
-.views-exposed-form .form-item-search-api-fulltext {
+
+.views-exposed-form .form-item-search-api-fulltext{
   margin-top: 0;
 }
 
-.views-exposed-form .form-submit {
-  margin-top: -25px;
+.views-exposed-form  .form-submit{
+    margin-top: -25px;
   font-size: 24px;
-  line-height: 1.1;
-  border: none;
-  border-radius: 0;
-  padding: 6px;
-  /*padding-left: 16px;*/
+line-height: 1.1;
+border: none;
+    border-radius: 0;
+    padding: 6px;
+        padding-left: 16px;
   height: 45px;
   background-color: #008cff;
   min-width: 100px;
 }
 
+
+
 .view-mag-search-2 .views-row {
   padding-top: 15px;
   padding-bottom: 15px;
+
+
 }
 
 .view-mag-search-2 .view-content {
-  color: #231f20;
-  font-size: 18px;
-  line-height: 32px;
+color: #231f20;
+font-size: 18px;
+line-height: 32px;
 }
+
 
 .view-mag-search-2 .view-header {
   font: 15px;
@@ -188,12 +199,12 @@ footer .social {
   font-weight: bold;
   color: #800000;
   content: "\f107";
+
 }
 
 a:hover, a:focus {
   color: #008cff;
-  /*text-decoration: underline;*/
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a {
@@ -269,7 +280,8 @@ a {
   margin-left: -7.5px;
 }
 
-.navlogo a {
+
+.navlogo a{
   /*display: inline-block;*/
   font-family: 'Oswald', sans-serif;
   font-size: 28px;
@@ -278,9 +290,10 @@ a {
   color: #231f20;
   text-decoration: none;
   position: absolute;
-  margin-top: 6px;
-  margin-left: 10px;
+  margin-top: 10px;
+  /*margin-left: 10px;*/
   /*margin-left: -7.5px;*/
+
 }
 
 .mnavcon .menu {
@@ -414,10 +427,7 @@ a {
 .view-mag-homepage-stories-2 .views-field-field-reftopic {
   padding: 0;
   margin: 0;
-  text-align: right;
-  position: absolute;
-  bottom: 20px;
-  right: 16px;
+  /*width: 66.6%*/
 }
 .view-mag-homepage-stories-2 .views-field-field-reftopic .field-content {
   line-height: 1em;
@@ -429,19 +439,17 @@ a {
   padding: 0;
   margin: 0;
   line-height: 1em;
-  text-align: right;
 }
 .view-mag-homepage-stories-2 .views-field-field-issue {
   line-height: 1em;
-  /*text-align: right;*/
-
+  text-align: right;
   color: #77787b;
   font-size: 13px;
   padding: 0;
   margin: 0;
   text-decoration: none;
   white-space: nowrap;
-  margin-top: -4px;
+  margin-top: -14px;
 }
 .view-mag-homepage-stories-2 .views-field-title {
   line-height: 1em;
@@ -487,8 +495,7 @@ a {
 .view-mag-homepage-stories-2 .views-field {}
 .view-mag-homepage-stories-2 .int-wrap {
   background: #fff;
-  /*min-height: 260px;*/
-
+  min-height: 260px;
   margin-bottom: 12px;
   padding: 12px;
 }
@@ -496,7 +503,8 @@ a {
 /**
  * current-issue-front1
  */
-.block-views-blockmag-current-issue-block-block-1 .block-title, .block-views-blockmag-current-issue-block-block-2 .block-title {
+.block-views-blockmag-current-issue-block-block-1 .block-title,
+.block-views-blockmag-current-issue-block-block-2 .block-title {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
@@ -594,7 +602,7 @@ a {
   direction: ltr;
   text-align: center;
 }
-div.disabled>.toggle-slide {
+div.disabled> .toggle-slide {
   opacity: 0.7;
   pointer-events: none;
 }
@@ -701,18 +709,36 @@ div.disabled>.toggle-slide {
   color: #800000;
   text-decoration: none;
 }
+
+
 .view-mag-top-stories .top-stories-subhead {
   font-size: 16px;
   line-height: 24px;
   color: #231f20;
   padding-bottom: 20px;
   display: block;
+
 }
-.view-mag-top-stories .views-row {
-  /*height: 120px;
+
+
+
+.view-mag-top-stories .views-row{
+/*height: 120px;
 overflow: hidden;*/
 }
-.light-gradient {}
+
+
+
+
+ .light-gradient{
+
+}
+
+
+
+
+
+
 .view-mag-top-stories .views-field-counter .field-content {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
@@ -766,10 +792,6 @@ body {
   clear: both;
   height: 80px;
 }
-
-
-
-
 .navbar-header {
   float: none;
   clear: both;
@@ -813,40 +835,38 @@ body {
 ul .menu .nav {
   text-align: right;
 }
-.fromthearchives1, .quoteimage1, .alumniessay1, .carousel1 {}
+.fromthearchives1, .quoteimage1, .alumniessay1, .carousel1 {
+
+}
 .fromthearchives1 .block, .quoteimage1 .block, .alumniessay1 .block, .carousel1 .block {
   background: #fff;
   min-height: 260px;
   margin-bottom: 12px;
   padding: 12px;
 }
-@media (min-width:768px) {
-  .btn-gift {
-    font-family: Arial;
-    color: #800000 !important;
-    font-size: 13px;
-    background: #fff;
-    padding: 5px !important;
-    margin-top: 15px;
-    border: solid #800000 1px;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all ease 0.2s;
-    -moz-transition: all ease 0.2s;
-    transition: all ease 0.2s;
-  }
-
-  .btn-gift:hover {
-    background: #800000 !important;
-    color: #fff !important;
-    text-decoration: none;
-    -webkit-transition: all ease 0.2s;
-    -moz-transition: all ease 0.2s;
-    transition: all ease 0.2s;
-  }
+.btn-gift {
+  font-family: Arial;
+  color: #800000 !important;
+  font-size: 13px;
+  background: #fff;
+  padding: 5px !important;
+  margin-top: 15px;
+  border: solid #800000 1px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
-.searchnav,
-.searchnav2 {
+.btn-gift:hover {
+  background: #800000 !important;
+  color: #fff !important;
+  text-decoration: none;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+.searchnav {
   color: #800000 !important;
   font-family: 'Oswald', sans-serif;
 }
@@ -893,8 +913,6 @@ ul .menu .nav {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   border: none;
   border-radius: 0;
-  clear: both;
-  z-index: 99;
 }
 #block-magnavlogo {
   display: none;
@@ -944,12 +962,16 @@ ul .menu .nav {
   color: #231f20;
   text-decoration: none;
 }
-.view-mag-back-issues .views-field-title {
+.view-mag-back-issues .views-field-title{
+  padding-bottom: 8px;
+
+}
+
+.view-mag-back-issues .views-field-field-issue-cover{
   padding-bottom: 8px;
 }
-.view-mag-back-issues .views-field-field-issue-cover {
-  padding-bottom: 8px;
-}
+
+
 .view-mag-back-issues .views-field-view-node a, .view-mag-back-issues .views-field-field-issue-pdf a {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
@@ -976,6 +998,9 @@ ul .menu .nav {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
+
+
 .view-mag-back-issues .int-wrap {
   background: #ffffff;
   padding: 15px;
@@ -995,149 +1020,188 @@ ul .menu .nav {
   border-bottom: 1px solid #eee;
   border: none;
 }
-.views-field-field-issue-summary h3 {
-  clear: both;
+
+.views-field-field-issue-summary h3{
+    clear:both;
 }
 
+
+
+
 /* STORY */
-.page-node-type-story .field--name-field-caption {
-  color: #77787b;
+
+.page-node-type-story .field--name-field-caption{
+  color:#77787b;
   font-size: 16px;
   line-height: 24px;
   padding-top: 8px;
 }
-.page-node-type-story .field--name-field-caption p {
-  color: #77787b;
+
+
+.page-node-type-story .field--name-field-caption p{
+  color:#77787b;
   font-size: 16px;
   line-height: 24px;
   padding-top: 0;
 }
-.page-node-type-story .mag-story-title {
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  color: #231f20;
+
+
+.page-node-type-story .mag-story-title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+  color:#231f20;
   font-size: 60px;
   line-height: 65px;
   padding-top: 40px;
   padding-bottom: 20px;
 }
-.page-node-type-story .region-content {
-  padding-left: 0;
-}
-@media (min-width: 992px) {
-  .page-node-type-story .region-content {
-    padding-left: 36px;
-  }
-}
-.page-node-type-story .story-meta div {
+
+
+
+
+.page-node-type-story .story-meta div{
   display: inline-block;
 }
-.page-node-type-story .story-meta {
+
+
+.page-node-type-story .story-meta{
   font-size: 16px;
   line-height: 24px;
-  color: #231f20;
+    color:#231f20;
   display: inline-block;
-  padding-bottom: 20px;
+    padding-bottom: 20px;
+
 }
-.page-node-type-story .field--name-field-refauthors {
+
+.page-node-type-story .field--name-field-refauthors{
   font-weight: bold;
 }
-.page-node-type-story .field--name-field-subhead {
+
+.page-node-type-story .field--name-field-subhead{
   clear: both;
   font-weight: bold;
   font-size: 25px;
   line-height: 36px;
-  color: #231f20;
-  padding-bottom: 40px;
+    color:#231f20;
+    padding-bottom: 40px;
 }
-.page-node-type-story .field--name-field-subhead p {
+
+
+.page-node-type-story .field--name-field-subhead p{
   clear: both;
   font-weight: bold;
   font-size: 25px;
   line-height: 36px;
-  color: #231f20;
-  padding-bottom: 0;
+    color:#231f20;
+    padding-bottom: 0;
 }
-.page-node-type-story .storytags div {
+
+
+
+.page-node-type-story .storytags div{
   display: inline-block;
   font-size: 13px;
   color: #800000;
-  margin: 3px;
+    margin: 3px;
 }
-.page-node-type-story .storytags a {
+
+.page-node-type-story .storytags a{
   color: #800000;
   background: #fff;
   padding: 3px;
   margin: 3px;
   text-transform: uppercase;
 }
-.page-node-type-story .field--name-body {
+
+.page-node-type-story .field--name-body{
   padding-bottom: 50px;
   color: #231f20;
   font-size: 18px;
   line-height: 32px;
 }
-.page-node-type-story .field--name-body * {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.page-node-type-story .field--name-body a {
-  font-weight: bold;
-}
-.page-node-type-story .field--name-body h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 25px;
-  line-height: 35px;
-  font-weight: bold;
-}
-.page-node-type-story h2.related-stories-head, .page-node-type-story h2.media-icon-video {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #fff;
-  line-height: 1em;
-  padding: 12px 12px 12px 12px;
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 12px;
-  background: #008cff;
-  clear: both;
-  width: 220px;
-}
-.field--name-body h5, .field--name-body h6 {
-  /*visibility: hidden;*/
-  /*height: 1.0em;*/
-  /*display: none;*/
-}
-.page-node-type-story .page-header {
-  display: none;
-}
-.img-responsive {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-@media print {
-  .no-print, .no-print *, .region-sidebar-first, .footer, .navbar {
-    display: none !important;
-  }
-}
-.messages--error {
-  display: none;
-}
-.pagination>li>a, .pagination span {
-  font-family: 'Oswald', sans-serif !important;
-  font-size: 20px !important;
-  color: #008cff !important;
-}
-.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-  z-index: 3;
-  color: #fff !important;
-  cursor: default;
-  background-color: #008cff !important;
+
+.page-node-type-story .field--name-body *{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+.page-node-type-story .field--name-body a{
+    font-weight: bold;
+}
+
+
+.page-node-type-story .field--name-body h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.page-node-type-story  h2.related-stories-head,
+.page-node-type-story h2.media-icon-video{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1em;
+    padding: 12px 12px 12px 12px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    background: #008cff;
+    clear: both;
+    width: 220px;
+}
+
+
+.field--name-body h5{
+  visibility: hidden;
+  height: 1.0em;
+}
+
+.page-node-type-story .page-header{
+  display: none;
+}
+
+.img-responsive{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+@media print
+{
+    .no-print, .no-print *, .region-sidebar-first, .footer, .navbar
+    {
+        display: none !important;
+    }
+}
+
+
+.messages--error{
+  display: none;
+}
+
+.pagination > li > a,
+.pagination span{
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 20px !important;
+      color: #008cff !important;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff !important;
+    cursor: default;
+      background-color: #008cff !important;
+
+}
+
+
 /* ISSUE */
-.magazine-issue .field--name-field-issue-num p {
+
+.magazine-issue .field--name-field-issue-num p{
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
   line-height: 65px;
@@ -1145,55 +1209,68 @@ ul .menu .nav {
   color: #231f20;
   text-decoration: none;
   padding-bottom: 30px;
-  padding-top: 60px;
+    padding-top: 60px;
 }
+
+
 .magazine-issue .field--name-field-issue-pdf a {
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  color: #008cff;
-  text-decoration: none;
-  font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #008cff;
+    text-decoration: none;
+    font-weight: bold;
+
 }
-.magazine-issue .field--name-field-issue-pdf {
+.magazine-issue .field--name-field-issue-pdf{
   margin-top: 15px;
 }
+
 .magazine-issue .mag-issue-title {
-  font-family: 'Oswald', sans-serif;
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #231f20;
-  text-decoration: none;
-  padding-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #231f20;
+    text-decoration: none;
+    padding-bottom: 10px;
 }
-@media (min-width: 992px) {
-  .magazine-issue .issue-block {
+
+
+@media (min-width: 992px){
+  .magazine-issue .issue-block{
     padding-right: 6px;
-    padding-left: 6px;
-    /*  margin-right: 16px;*/
+        padding-left: 6px;
+/*  margin-right: 16px;*/
+
   }
+
 }
-.magazine-issue .issue-block {
+
+.magazine-issue .issue-block{
   background: #fff;
   padding: 20px;
-  padding: 20px;
-  margin-bottom: 30px;
+
+padding: 20px;
+margin-bottom: 30px;
 }
-.magazine-issue .field--name-body h2 {
+
+
+.magazine-issue .field--name-body h2{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #fff;
-  line-height: 1em;
-  padding: 12px 12px 12px 12px;
-  margin: 0;
-  margin-bottom: 12px;
-  background: #008cff;
-  color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+color: #fff;
+line-height: 1em;
+padding: 12px 12px 12px 12px;
+margin: 0;
+margin-bottom: 12px;
+background: #008cff;
+color: #fff;
 }
-.magazine-issue .field--name-body h3 a {
+
+.magazine-issue .field--name-body h3 a{
   font-family: 'Oswald', sans-serif;
   color: #800000;
   font-weight: bold;
@@ -1204,11 +1281,14 @@ ul .menu .nav {
   line-height: 1em;
 }
 
+
 /* TAXONOMY/TOPIC VIEWS */
-.feed-icons {
+
+.feed-icons{
   display: none;
 }
-.view-taxonomy-term .field--name-name {
+
+.view-taxonomy-term .field--name-name{
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
   line-height: 65px;
@@ -1216,81 +1296,94 @@ ul .menu .nav {
   color: #231f20;
   text-decoration: none;
   padding-bottom: 5px;
-  padding-top: 30px;
+    padding-top: 30px;
 }
-.view-taxonomy-term .views-row:nth-child(4n+1) {
+
+
+
+.view-taxonomy-term  .views-row:nth-child(4n+1) {
   clear: left
 }
+
+
 .view-taxonomy-term .int-wrap {
-  background: #ffffff;
-  padding: 15px;
-  margin-bottom: 15px;
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
 }
+
+
+
 .view-taxonomy-term .views-field-title a {
-  font-family: 'Oswald', sans-serif;
-  color: #800000;
-  font-weight: bold;
-  font-size: 24px;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-  line-height: 1em;
+    font-family: 'Oswald', sans-serif;
+    color: #800000;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
 }
+
+
 .view-taxonomy-term .views-field-field-reftopic {
-  padding: 0;
-  margin: 0;
-  /* width: 66.6%; */
-
-  padding: 0;
-  margin: 0;
-  text-align: right;
-  position: absolute;
-  bottom: 20px;
-  right: 16px;
+    padding: 0;
+    margin: 0;
+    /* width: 66.6%; */
 }
-.view-taxonomy-term .views-field-field-issue {
-  line-height: 1em;
-  /*text-align: right;*/
 
-  color: #77787b;
-  font-size: 13px;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  white-space: nowrap;
-  /*margin-top: -16px;*/
 
-  margin-top: 8px;
+.view-taxonomy-term  .views-field-field-issue {
+    line-height: 1em;
+    text-align: right;
+    color: #77787b;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: -16px;
 }
-.view-taxonomy-term .views-field-title {
-  line-height: 1em;
-  padding-top: 28px;
+
+
+
+.view-taxonomy-term  .views-field-title {
+    line-height: 1em;
+    padding-top: 28px;
 }
+
+
 .view-taxonomy-term .views-field-field-refauthors {
-  color: #77787b;
-  font-size: 12px;
-  text-decoration: none;
-  padding-top: 6px;
+    color: #77787b;
+    font-size: 12px;
+    text-decoration: none;
+    padding-top: 6px;
 }
+
+
 .view-taxonomy-term .views-field-field-subhead {
-  color: #231f20;
-  font-size: 15px;
-  text-decoration: none;
-  padding-bottom: 30px;
+    color: #231f20;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 30px;
 }
+
 .view-taxonomy-term .views-field-field-storyimage {
   padding-bottom: 15px;
 }
 
-/* GENERAL PAGES */
-article p {
-  /*padding-bottom: 50px;*/
 
+
+/* GENERAL PAGES */
+
+article p{
+  /*padding-bottom: 50px;*/
   color: #231f20;
   font-size: 18px;
   line-height: 32px;
 }
-.page-header .field--name-title {
+
+.page-header .field--name-title{
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
   line-height: 65px;
@@ -1298,494 +1391,143 @@ article p {
   color: #231f20;
   text-decoration: none;
   padding-bottom: 30px;
-  padding-top: 60px;
+    padding-top: 60px;
 }
+
 body {
-  min-height: 100%;
-  margin: auto;
+
+
+    min-height: 100%;
+    margin: auto;
 }
-section {
+
+section{
   clear: both;
 }
-.sharing-links {
+
+.sharing-links{
   padding-bottom: 30px;
 }
-.pagination>li:last-child>a, .pagination>li:last-child>span {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
-.pagination>li:first-child>a, .pagination>li:first-child>span {
-  margin-left: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
+
 
 /* ALUMNI TAXONOMY */
-.term-131 .pagination>.active>a, .term-131 .pagination>.active>span, .term-131 .pagination>.active>a:hover, .term-131 .pagination>.active>span:hover, .term-131 .pagination>.active>a:focus, .term-131 .pagination>.active>span:focus {
-  z-index: 3;
-  color: #fff !important;
-  cursor: default;
-  background-color: #0F425C !important;
-}
-.term-131 .pagination>li>a, .term-131 .pagination span {
-  font-family: 'Oswald', sans-serif !important;
-  font-size: 20px !important;
-  color: #0F425C !important;
-}
-body.term-131 {
-  background: #FDE7E0;
-}
-.term-131 .view-taxonomy-term .int-wrap {
-  background: #0F425C;
-  padding: 15px;
-  margin-bottom: 15px;
-}
-.term-131 .pagination>.active>a, .term-131 .pagination>.active>span, .term-131 .pagination>.active>a:hover, .term-131 .pagination>.active>span:hover, .term-131 .pagination>.active>a:focus, .term-131 .pagination>.active>span:focus {
-  z-index: 3;
-  color: #fff;
-  cursor: default;
-  background-color: #0F425C;
-  border-color: #0F425C;
-  border-top-color: #0F425C;
-  border-right-color: #0F425C;
-  border-bottom-color: #0F425C;
-  border-left-color: #0F425C;
-}
-.term-131 .view-taxonomy-term .views-field-field-subhead {
-  color: #fff;
-  font-size: 15px;
-  text-decoration: none;
-  padding-bottom: 30px;
-}
-.term-131 .view-taxonomy-term .views-field-field-issue {
-  line-height: 1em;
-  /*text-align: right;*/
 
-  color: #e8e8e8;
-  font-size: 13px;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  white-space: nowrap;
-  margin-top: 8px;
+ body.term-131 {
+background: #FDE7E0;
 }
+
+.term-131 .view-taxonomy-term .int-wrap {
+    background: #0F425C;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+.term-131 .view-taxonomy-term .views-field-field-subhead {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+
+.term-131 .view-taxonomy-term .views-field-field-issue {
+    line-height: 1em;
+    text-align: right;
+    color: #e8e8e8;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: -16px;
+}
+
+
+
+
+
+
 .term-131 .view-taxonomy-term .views-field-title a {
-  font-family: 'Oswald', sans-serif;
-  color: #e8e8e8;
-  font-weight: bold;
-  font-size: 24px;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-  line-height: 1em;
+    font-family: 'Oswald', sans-serif;
+    color: #e8e8e8;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
 }
-.term-131 .int-wrap a {
+
+.term-131 .int-wrap a{
   color: #e8e8e8;
 }
+
 .term-131 .view-taxonomy-term .views-field-field-refauthors {
-  color: #e8e8e8;
-  font-size: 12px;
-  text-decoration: none;
-  padding-top: 6px;
+    color: #e8e8e8;
+    font-size: 12px;
+    text-decoration: none;
+    padding-top: 6px;
 }
-#block-browsestoriesfrom19xxandearlier p {
+
+#block-browsestoriesfrom19xxandearlier p{
   text-align: center;
 }
-#block-browsestoriesfrom19xxandearlier a {
+#block-browsestoriesfrom19xxandearlier a{
   font-family: 'Oswald', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: bold;
-  color: #800000;
-  text-decoration: none;
-  text-align: center;
+font-size: 16px;
+line-height: 24px;
+font-weight: bold;
+color: #800000;
+text-decoration: none;
+
+text-align: center;
 }
+
+
+
 .view-mag-back-issues .views-field-field-issue-summary {
   color: transparent;
   font-size: 0;
   -webkit-text-size-adjust: none;
-}
-.view-mag-back-issues .views-field-field-issue-summary a {
-  display: block;
-}
-.view-mag-back-issues .views-field-field-issue-summary a {
-  display: list-item;
-  list-style-type: disc;
-  list-style-position: inside;
-}
-ul.nav li.dropdown:hover>ul.dropdown-menu {
-  /*display: block;*/
-}
-.navbar-nav>li>.dropdown-menu {
-  margin-top: -5px;
-  margin-left: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-.view-header a {
-  text-decoration: none;
-}
-
-/* MOBILE MENU */
-.mnavcon .menu.nav.navbar-nav .onlymobile a {
-  font-family: 'Source Sans Pro', sans-serif;
-  /*color: #231f20;*/
-
-  font-size: 16px;
-  font-weight: normal;
-}
-#block-globalnav {
-  display: none;
-}
-#block-magglobalnavigationmobile {
-  display: block;
-}
-@media (min-width:768px) {
-  #block-globalnav {
-    display: block;
-  }
-
-  #block-magglobalnavigationmobile {
-    display: none;
-  }
-
-  .onlymobile {
-    display: none !important;
-  }
-
-  .mobsearch {
-    display: none;
-  }
-
-.path-searchterm #block-exposedformmag-search-2page-1{
-  display: none;
-}
-
-}
-@media (max-width:991px) {
-  .sharing-links {
-    padding: 15px;
-  }
-
-  .storytags {
-    padding: 15px;
-    padding-bottom: 30px;
-  }
-}
-@media (max-width:767px) {
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 20px;
-}
-
-  .block-views-exposed-filter-blockmag-search-2-page-1 {
-      height: 80px;
-      margin-left: -15px;
-      margin-right: -15px;
-  }
-
-  #edit-search-api-fulltext {
-    margin-top: 10px;
-  }
-
-.mobsearchicon{
-  float:left;
-}
-
-#block-exposedformmag-search-2page-1{
-  display: block !important;
-}
-
-#searchclose{
-  display: none;
-}
-
-.form-item-search-api-fulltext.form-group {
-    margin-bottom: 32px;
-}
-
-.main-container
-{
-margin-top: 70px;
  }
 
-
-  .navbar-collapse{
-      background-color: #e8e8e8;
-  }
-
-.navbar-header{
-  background: #fff;
-
-}
-
-.navbar-toggle{
-  height: 40px;
-}
-
-.path-searchterm  .mobsearchicon,
-.path-search .mobsearchicon{
-  /*display: none;*/
-}
-
-.navbar-toggle {
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 0;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: none;
-    border-radius: 0;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #800000;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #fff;
-}
-
-.navbar {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-  .btn-gift {
-    font-family: Arial;
-    color: #800000 !important;
-    font-size: 13px;
-    background: none;
-    padding: 5px !important;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border: solid #800000 1px;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all ease 0.2s;
-    -moz-transition: all ease 0.2s;
-    transition: all ease 0.2s;
-    width: 150px;
-    margin-left: 15px;
-  }
-
-  #block-views-block-mag-front-feature-block-1 {
-    padding-bottom: 20px;
-    margin-bottom: 12px;
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-
-  .view-mag-front-feature .int-wrap {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .navlogo a {
-    /* display: inline-block; */
-    font-family: 'Oswald', sans-serif;
-    font-size: 28px;
-    line-height: 28px;
-    font-weight: bold;
-    color: #231f20;
-    text-decoration: none;
-    position: absolute;
-    margin-top: 4px;
-    margin-left: 20px;
-    /* margin-left: -7.5px; */
-  }
-
-  #edit-actions {
-    clear: both;
-    margin-top: 30px;
-    margin-left: 8px;
-  }
-
-  .navspacer {
-    display: none !important;
-  }
-  .mnavcon {
-
-    padding-top: 0;
-        margin-top: -30px;
-  }
-
-#navbar-collapse{
-  border-bottom: 1px solid #800000;
-}
-
-  heading{
-    display: none;
-  }
-
-  .field--name-field-issue-num p, .view-taxonomy-term .field--name-name {
-    padding-left: 12px !important;
-    font-size: 45px !important;
-  }
-
-  .magazine-issue .field--name-field-issue-num p {
-    padding-top: 0;
-  }
-
-  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #800000;
-    font-weight: normal;
-    font-size: 16px;
-  }
-
-  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
-    color: #800000;
-    background-color: transparent;
-  }
-
-  .social [class*="fa fa-"], .social [class*="fa icon-"] {
-    background-color: #fff;
-    border-radius: 60px;
-    color: #231f20;
-    display: inline-block;
-    height: 60px;
-    line-height: 70px;
-    margin: 10px 10px;
-    width: 60px;
-    font-size: 36px;
-    text-align: center;
-  }
-
-  .views-field-field-reftopic {
-    bottom: 6px !important;
-  }
-
-  .dropdown {
-    display: none;
-  }
-
-  .page-node-type-story .mag-story-title {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    color: #231f20;
-    font-size: 60px;
-    line-height: 65px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-  }
-
-  .dropdown .open {
-    position: static !important;
-    float: none !important;
-    width: auto !important;
-    margin-top: 0 !important;
-    background-color: transparent !important;
-    border: 0 !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-  }
-
-  .page-node-type-story .field--name-body {
-    padding-bottom: px;
-    color: #231f20;
-    font-size: 18px;
-    line-height: 32px;
-  }
-
-  .socialblock {
-    margin-top: 30px;
-  }
-
-  ul.nav li.dropdown:hover>ul.dropdown-menu {
-    /*display: none !important;*/
-  }
-
-  #views-exposed-form-mag-search-2-page-1, #views-exposed-form-mag-search-2-page-2 {
-    margin-left: 12px;
-    margin-right: 12px;
-
-  }
-
-  #views-exposed-form-mag-search-2-page-2{
-    margin-top: -14px;
-  }
-
-  .view-mag-search-2 {
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-
-  .region-sidebar-first {
-    margin-top: 24px;
-  }
-
-  .nav>li.searchli {
-    display: none !important;
-  }
-}
-.page-node-type-generic .content {
-  margin-left: 12px;
-  margin-right: 12px;
-}
-div.content img {
-  max-width: 98% !important;
-}
-.mobsearch, .mobsearchicon {
-  color: #800000;
-  position: relative;
-  float: left;
-  padding: 9px 10px;
-  margin-top: 8px;
-  margin-right: 0;
-  margin-bottom: 8px;
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  top:-20px;
-  left: -36px;
-  font-size: 16px;
-}
-
-.mobsearchicon .glyphicon-search{
-  font-size: 16px;
-}
-.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
+.view-mag-back-issues .views-field-field-issue-summary a { display:block; }
 
 
 
-.mobsearch .glyphicon {
-  font-size: 16px;
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-.form-submit{
-  color: #fff !important;
+
+.view-mag-back-issues .views-field-field-issue-summary a{
+
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
 
 }
 
-
-.btn-info:active,.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
-    color: #fff;
-      background-color: #008cff;
-    border: none;
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
 }
 
-.btn-info:active:hover, .btn-info.active:hover, .open > .dropdown-toggle.btn-info:hover, .btn-info:active:focus, .btn-info.active:focus, .open > .dropdown-toggle.btn-info:focus, .btn-info:active.focus, .btn-info.active.focus, .open > .dropdown-toggle.btn-info.focus {
-  color: #fff;
-    background-color: #008cff;
-  border: none;
+.navbar-nav > li > .dropdown-menu {
+    margin-top: -5px;
+    margin-left: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.view-header a{
+  text-decoration: none;
 }
